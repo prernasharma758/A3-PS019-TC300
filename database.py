@@ -4,7 +4,6 @@ import pandas as pd
 DB_FILE = "privacy_evidence.db"
 
 def init_db():
-    """Initializes the SQLite database and creates the evidence table if it doesn't exist."""
     conn = sqlite3.connect(DB_FILE)
     cursor = conn.cursor()
     cursor.execute('''
@@ -22,7 +21,6 @@ def init_db():
     conn.close()
 
 def insert_evidence(file_name, pii_type, leaked_value, risk_level, compliance_status):
-    """Inserts a detected PII leak into the local SQLite database."""
     conn = sqlite3.connect(DB_FILE)
     cursor = conn.cursor()
     cursor.execute('''
@@ -33,7 +31,6 @@ def insert_evidence(file_name, pii_type, leaked_value, risk_level, compliance_st
     conn.close()
 
 def get_all_evidence():
-    """Retrieves all logged evidence records as a pandas DataFrame."""
     conn = sqlite3.connect(DB_FILE)
     df = pd.read_sql_query('''
         SELECT file_name AS "File Name", 
@@ -49,7 +46,6 @@ def get_all_evidence():
     return df
 
 def clear_db():
-    """Wipes all records from the database table."""
     conn = sqlite3.connect(DB_FILE)
     cursor = conn.cursor()
     cursor.execute('DELETE FROM evidence')
