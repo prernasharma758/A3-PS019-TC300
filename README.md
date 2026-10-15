@@ -1,3 +1,8 @@
+PrivacyShield AI
+AI-Powered Personal Data Discovery and Privacy Auditing
+Identify sensitive personal information. Assess exposure risks. Strengthen data privacy.
+PrivacyShield AI is a privacy-auditing project designed to identify Personally Identifiable Information (PII) in datasets, assess potential exposure risks, and help users understand where sensitive information may be present.
+Developed as part of AIORI Hackathon — Problem Statement PS019.
 ## Overview
 Organizations store huge amounts of data across files, databases and documents, and often don't know where personal data (PII) is hiding. This project is an AI-powered platform that automatically discovers personal data, evaluates how risky its exposure is, and keeps audit-ready evidence for compliance. It was built for *AIORI-3 Hackathon, Problem Statement PS019: Personal Data Discovery*.
 ## Problem Statement
