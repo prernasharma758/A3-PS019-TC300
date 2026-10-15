@@ -24,7 +24,9 @@ We built an automated privacy auditing platform that:
 - *Audit Log Store:* records findings and actions as evidence
 - *User Interface:* dashboard and reports
 ## Technology Stack
-
+Frontend : app.py
+Backend : database.py
+github
 ## How It Works
 1. *Upload / Connect:* the user provides files or a data source.
 2. *Scan:* the detection engine analyzes content for PII.
@@ -45,7 +47,9 @@ We built an automated privacy auditing platform that:
 4. Review findings, risk scores and the audit log.
 5. Export the report if needed.
 ## Sample Results
-
+| Input | Detected PII | Risk Level |
+| hackathon_test.csv | Name, Email, Phone | Medium |
+| requirements.txt | Aadhaar, PAN, Address | High |
 ## Security & Privacy Considerations
 - Detected PII is *masked* in dashboards and reports.
 - Processing is done locally / in a controlled environment; no data is shared with third parties.
