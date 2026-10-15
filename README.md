@@ -88,9 +88,11 @@ There are several ways the project could be improved in the future.
 **Scalability:** Improve processing for larger datasets.
 These improvements could make the scanner more useful for repeatable privacy reviews while keeping its findings transparent and open to human validation.
 ## Team Members
-Prerna Sharma	Team Member
-Pranav Arora	Team Member
-Sachin Sir	Mentor
+Prerna Sharma
+
+Pranav Arora
+
+Sachin Sir (Mentor)
 ## Acknowledgements
 We would like to thank AIORI Hackathon 3 for providing the opportunity to work on this cybersecurity problem.
 We are grateful to our mentor, Sachin Sir, for his guidance and support.
