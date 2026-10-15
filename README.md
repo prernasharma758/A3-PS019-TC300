@@ -24,6 +24,7 @@ We built an automated privacy auditing platform that:
 - *Audit Log Store:* records findings and actions as evidence
 - *User Interface:* dashboard and reports
 ## Technology Stack
+
 ## How It Works
 1. *Upload / Connect:* the user provides files or a data source.
 2. *Scan:* the detection engine analyzes content for PII.
@@ -32,7 +33,11 @@ We built an automated privacy auditing platform that:
 5. *Log:* results and actions are saved as audit evidence.
 6. *Report:* the user views findings and exports the report.
 ## Screenshots
-## Installation & Setup
+<img width="1366" height="768" alt="ss 1" src="https://github.com/user-attachments/assets/d496a47d-41de-418a-9257-b236c24d8d70" />
+<img width="1366" height="768" alt="ss 2" src="https://github.com/user-attachments/assets/592688c7-1c5e-41cb-9aee-4d8b2702c644" />
+<img width="1366" height="768" alt="ss 3" src="https://github.com/user-attachments/assets/f4a4d184-9a4c-4328-b47a-9f57c5a07731" />
+<img width="1366" height="768" alt="ss 4" src="https://github.com/user-attachments/assets/c3d02125-0387-4de7-b859-aae2a6a993d9" />
+
 ## Usage
 1. Open the application in your browser / terminal.
 2. Upload a file or select a data source.
@@ -40,6 +45,7 @@ We built an automated privacy auditing platform that:
 4. Review findings, risk scores and the audit log.
 5. Export the report if needed.
 ## Sample Results
+
 ## Security & Privacy Considerations
 - Detected PII is *masked* in dashboards and reports.
 - Processing is done locally / in a controlled environment; no data is shared with third parties.
