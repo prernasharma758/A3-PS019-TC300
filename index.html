@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrivacyShield AI - Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <aside>
+        <div class="upload-section">
+            <h3>Upload a file to start audit</h3>
+            <label class="upload-btn">
+                <span>📁</span> Upload
+                <input type="file" id="fileInput" style="display: none;">
+            </label>
+            <div class="file-info">200MB per file • CSV, TXT, XLSX</div>
+        </div>
+
+        <button class="reset-btn">
+            🗑️ Reset Command Database
+        </button>
+    </aside>
+
+    <!-- Main Dashboard -->
+    <main>
+        <div class="header">
+            <h1>PRIVACYSHIELD AI</h1>
+            <div class="subtitle">🛡️ Cybersecurity Audit & Verhoeff Validated Privacy Evidence Center</div>
+        </div>
+
+        <!-- Top Metrics Row -->
+        <div class="grid">
+            <div class="card">
+                <div class="card-title">📁 Databases Audited</div>
+                <div class="card-value" id="auditedCount">00</div>
+            </div>
+            <div class="card">
+                <div class="card-title">🚨 Total PII Expositions</div>
+                <div class="card-value" id="piiCount">00</div>
+            </div>
+            <div class="card">
+                <div class="card-title">🛡️ Compliance Integrity</div>
+                <div class="card-value green">100%</div>
+            </div>
+        </div>
+
+        <!-- Bottom Description Row -->
+        <div class="grid">
+            <div class="card">
+                <div class="card-title">🛡️ Verhoeff Algorithmic Check</div>
+                <div class="card-desc">Validates the integrity of Aadhaar numbers using standard Verhoeff mathematical matrices to block false inputs.</div>
+            </div>
+            <div class="card">
+                <div class="card-title">📁 SQLite Evidence Vault</div>
+                <div class="card-desc">Every trace is logged into an immutable, locally hosted secure SQL database registry for audit reporting.</div>
+            </div>
+            <div class="card">
+                <div class="card-title">⚡ Cyber Remediation</div>
+                <div class="card-desc">One-click sanitization pipeline to redact leaked names, IDs, card records, and sensitive endpoints instantly.</div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
