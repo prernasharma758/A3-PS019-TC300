@@ -1,5 +1,6 @@
 ## Team Name
-Infoshield
+**Infoshield**
+
 PrivacyShield AI
 AI-Powered Personal Data Discovery and Privacy Auditing
 Identify sensitive personal information. Assess exposure risks. Strengthen data privacy.
