@@ -1,3 +1,5 @@
+## Team Name
+Infoshield
 PrivacyShield AI
 AI-Powered Personal Data Discovery and Privacy Auditing
 Identify sensitive personal information. Assess exposure risks. Strengthen data privacy.
@@ -88,8 +90,6 @@ These improvements could make the scanner more useful for repeatable privacy rev
 Prerna Sharma	Team Member
 Pranav Arora	Team Member
 Sachin Sir	Mentor
-## Team Name
-Infoshield
 ## Acknowledgements
 We would like to thank AIORI Hackathon 3 for providing the opportunity to work on this cybersecurity problem.
 We are grateful to our mentor, Sachin Sir, for his guidance and support.
